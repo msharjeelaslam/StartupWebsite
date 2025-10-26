@@ -987,6 +987,11 @@
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+  .sm\:justify-items-center {
+    @media (width >= 720px) {
+      justify-items: center;
+    }
+  }
   .sm\:gap-x-6 {
     @media (width >= 720px) {
       column-gap: calc(var(--spacing) * 6);
