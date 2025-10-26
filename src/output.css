@@ -1359,6 +1359,16 @@
       min-width: calc(var(--spacing) * 134);
     }
   }
+  .lg\:min-w-230 {
+    @media (width >= 1143px) {
+      min-width: calc(var(--spacing) * 230);
+    }
+  }
+  .lg\:min-w-240 {
+    @media (width >= 1143px) {
+      min-width: calc(var(--spacing) * 240);
+    }
+  }
   .lg\:min-w-260 {
     @media (width >= 1143px) {
       min-width: calc(var(--spacing) * 260);
