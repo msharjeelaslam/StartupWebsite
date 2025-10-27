@@ -488,21 +488,111 @@
 
     <div class="flex justify-center items-center mb-20">
 
-      <div class="max-w-96 grid grid-cols-1 gap-y-6">
+      <div class="max-w-96 xs:min-w-126 sm:min-w-164 md:min-w-230 lg:min-w-274 grid grid-cols-1 md:grid-cols-2 items-start md:justify-items-center gap-y-8  lg:gap-x-7">
 
-        <div class="border border-gray-300 rounded-lg p-4">
+        <div class="border border-gray-300 rounded-lg p-4 xs:p-8 md:p-4 md:max-w-110 lg:min-w-132 lg:min-h-26 lg:flex lg:items-center">
           <div class="flex gap-x-5">
 
             <div class="max-w-9 min-w-9 min-h-9 max-h-9 bg-blue-100 rounded-lg flex justify-center items-center ">
-              <svg onclick="showLowerFAQText()" id="FAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
-              <svg onclick="hideLowerFAQText()" id="FAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
+              <svg onclick="showFirstLowerFAQText()" id="1stFAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              <svg onclick="hideFirstLowerFAQText()" id="1stFAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
             </div>
 
           
 
             <div class="flex flex-col gap-y-3">
-              <div class="text-[19px] font-sans font-medium">How long we deliver your first blog post?</div>
-              <div id="lowerFAQText" class="text-[16px] font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
+              <div class="text-[19px] xs:text-[20px] sm:text-[21px] md:text-[20px] font-sans font-medium">How long we deliver your first blog post?</div>
+              <div id="1stlowerFAQText" class="text-[16px] xs:text-[17px]  font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-4 xs:p-8 md:p-4 md:max-w-110 lg:min-w-132 lg:min-h-26 lg:flex lg:items-center">
+          <div class="flex gap-x-5">
+
+            <div class="max-w-9 min-w-9 min-h-9 max-h-9 bg-blue-100 rounded-lg flex justify-center items-center ">
+              <svg onclick="showSecondLowerFAQText()" id="2ndFAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              <svg onclick="hideSecondLowerFAQText()" id="2ndFAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
+            </div>
+
+          
+
+            <div class="flex flex-col gap-y-3">
+              <div class="text-[19px] xs:text-[20px] sm:text-[21px] font-sans font-medium">How long we deliver your first blog post?</div>
+              <div id="2ndlowerFAQText" class="text-[16px] xs:text-[17px]  font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-4 xs:p-8 md:p-4 md:max-w-110 lg:min-w-132 lg:min-h-26 lg:flex lg:items-center">
+          <div class="flex gap-x-5">
+
+            <div class="max-w-9 min-w-9 min-h-9 max-h-9 bg-blue-100 rounded-lg flex justify-center items-center ">
+              <svg onclick="showThirdLowerFAQText()" id="3rdFAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              <svg onclick="hideThirdLowerFAQText()" id="3rdFAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
+            </div>
+
+          
+
+            <div class="flex flex-col gap-y-3">
+              <div class="text-[19px] xs:text-[20px] sm:text-[21px] font-sans font-medium">How long we deliver your first blog post?</div>
+              <div id="3rdlowerFAQText" class="text-[16px] xs:text-[17px]  font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-4 xs:p-8 md:p-4 md:max-w-110 lg:min-w-132 lg:min-h-26 lg:flex lg:items-center">
+          <div class="flex gap-x-5">
+
+            <div class="max-w-9 min-w-9 min-h-9 max-h-9 bg-blue-100 rounded-lg flex justify-center items-center ">
+              <svg onclick="showFourthLowerFAQText()" id="4thFAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              <svg onclick="hideFourthLowerFAQText()" id="4thFAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
+            </div>
+
+          
+
+            <div class="flex flex-col gap-y-3">
+              <div class="text-[19px] xs:text-[20px] sm:text-[21px] font-sans font-medium">How long we deliver your first blog post?</div>
+              <div id="4thlowerFAQText" class="text-[16px] xs:text-[17px]  font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-4 xs:p-8 md:p-4 md:max-w-110 lg:min-w-132 lg:min-h-26 lg:flex lg:items-center">
+          <div class="flex gap-x-5">
+
+            <div class="max-w-9 min-w-9 min-h-9 max-h-9 bg-blue-100 rounded-lg flex justify-center items-center ">
+              <svg onclick="showFifthLowerFAQText()" id="5thFAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              <svg onclick="hideFifthLowerFAQText()" id="5thFAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
+            </div>
+
+          
+
+            <div class="flex flex-col gap-y-3">
+              <div class="text-[19px] xs:text-[20px] sm:text-[21px] font-sans font-medium">How long we deliver your first blog post?</div>
+              <div id="5thlowerFAQText" class="text-[16px] xs:text-[17px]  font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="border border-gray-300 rounded-lg p-4 xs:p-8 md:p-4 md:max-w-110 lg:min-w-132 lg:min-h-26 lg:flex lg:items-center">
+          <div class="flex gap-x-5">
+
+            <div class="max-w-9 min-w-9 min-h-9 max-h-9 bg-blue-100 rounded-lg flex justify-center items-center ">
+              <svg onclick="showSixthLowerFAQText()" id="6thFAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              <svg onclick="hideSixthLowerFAQText()" id="6thFAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
+            </div>
+
+          
+
+            <div class="flex flex-col gap-y-3">
+              <div class="text-[19px] xs:text-[20px] sm:text-[21px] font-sans font-medium">How long we deliver your first blog post?</div>
+              <div id="6thlowerFAQText" class="text-[16px] xs:text-[17px]  font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
             </div>
 
           </div>
@@ -512,6 +602,53 @@
 
     </div>
       
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="flex justify-center items-center mb-20">
+      <div class="min-w-100 border border-black px-10 py-13">
+        <div class="grid grid-cols-1 gap-y-8">
+
+          <div class="flex flex-col gap-y-5">
+            <div>Find Your Next Dream App</div>
+            <div>Get started with our free trial</div>
+          </div>
+
+          <div class="flex flex-col gap-y-2">
+            <button class="w-44 h-13  text-blue-600 font-sans font-medium rounded-lg">Get Pro Version</button>
+            <button  class="w-44 h-13 rounded-lg bg-green-500 text-white font-medium font-sans">Start Free Trial</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -579,20 +716,104 @@
   });
 
     
-  function showLowerFAQText(){
-    document.getElementById("FAQdownArrow").style.display = "none"
-    document.getElementById("FAQupArrow").style.display = "flex"
-    document.getElementById("lowerFAQText").style.display = "flex"
+  function showFirstLowerFAQText(){
+    document.getElementById("1stFAQdownArrow").style.display = "none"
+    document.getElementById("1stFAQupArrow").style.display = "flex"
+    document.getElementById("1stlowerFAQText").style.display = "flex"
   }
 
-  function hideLowerFAQText(){
-    document.getElementById("FAQdownArrow").style.display = "flex"
-    document.getElementById("FAQupArrow").style.display = "none"
-    document.getElementById("lowerFAQText").style.display = "none"
+  function hideFirstLowerFAQText(){
+    document.getElementById("1stFAQdownArrow").style.display = "flex"
+    document.getElementById("1stFAQupArrow").style.display = "none"
+    document.getElementById("1stlowerFAQText").style.display = "none"
   }
 
 
+
+
+
+
+
+  function showSecondLowerFAQText(){
+    document.getElementById("2ndFAQdownArrow").style.display = "none"
+    document.getElementById("2ndFAQupArrow").style.display = "flex"
+    document.getElementById("2ndlowerFAQText").style.display = "flex"
+  }
+
+  function hideSecondLowerFAQText(){
+    document.getElementById("2ndFAQdownArrow").style.display = "flex"
+    document.getElementById("2ndFAQupArrow").style.display = "none"
+    document.getElementById("2ndlowerFAQText").style.display = "none"
+  }
+
+
+
+
+
+
+
+
+  function showThirdLowerFAQText(){
+    document.getElementById("3rdFAQdownArrow").style.display = "none"
+    document.getElementById("3rdFAQupArrow").style.display = "flex"
+    document.getElementById("3rdlowerFAQText").style.display = "flex"
+  }
+
+  function hideThirdLowerFAQText(){
+    document.getElementById("3rdFAQdownArrow").style.display = "flex"
+    document.getElementById("3rdFAQupArrow").style.display = "none"
+    document.getElementById("3rdlowerFAQText").style.display = "none"
+  }
+
+
+
+
+
+
+
+
+  function showFourthLowerFAQText(){
+    document.getElementById("4thFAQdownArrow").style.display = "none"
+    document.getElementById("4thFAQupArrow").style.display = "flex"
+    document.getElementById("4thlowerFAQText").style.display = "flex"
+  }
+
+  function hideFourthLowerFAQText(){
+    document.getElementById("4thFAQdownArrow").style.display = "flex"
+    document.getElementById("4thFAQupArrow").style.display = "none"
+    document.getElementById("4thlowerFAQText").style.display = "none"
+  }
   
+  
+
+
+
+
+
+   function showFifthLowerFAQText(){
+    document.getElementById("5thFAQdownArrow").style.display = "none"
+    document.getElementById("5thFAQupArrow").style.display = "flex"
+    document.getElementById("5thlowerFAQText").style.display = "flex"
+  }
+
+  function hideFifthLowerFAQText(){
+    document.getElementById("5thFAQdownArrow").style.display = "flex"
+    document.getElementById("5thFAQupArrow").style.display = "none"
+    document.getElementById("5thlowerFAQText").style.display = "none"
+  }
+
+
+   function showSixthLowerFAQText(){
+    document.getElementById("6thFAQdownArrow").style.display = "none"
+    document.getElementById("6thFAQupArrow").style.display = "flex"
+    document.getElementById("6thlowerFAQText").style.display = "flex"
+  }
+
+  function hideSixthLowerFAQText(){
+    document.getElementById("6thFAQdownArrow").style.display = "flex"
+    document.getElementById("6thFAQupArrow").style.display = "none"
+    document.getElementById("6thlowerFAQText").style.display = "none"
+  }
 
 
   </script>
