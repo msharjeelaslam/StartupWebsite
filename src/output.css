@@ -422,6 +422,9 @@
   .max-w-40 {
     max-width: calc(var(--spacing) * 40);
   }
+  .max-w-70 {
+    max-width: calc(var(--spacing) * 70);
+  }
   .max-w-80 {
     max-width: calc(var(--spacing) * 80);
   }
@@ -687,6 +690,10 @@
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-base {
     font-size: var(--text-base);
