@@ -486,24 +486,31 @@
 
 
 
-    <div class="flex justify-center items-center mt-20 mb-20">
-      <div class="grid grid-cols-1 gap-y-6">
-        <div class="min-w-96 min-h-80 border border-black rounded-lg p-5">
+    <div class="flex justify-center items-center mb-20">
 
-          <div class="w-9 h-9 bg-blue-100 rounded-lg flex justify-center items-center">
-            <svg class="text-blue-600 " xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+      <div class="max-w-96 grid grid-cols-1 gap-y-6">
+
+        <div class="border border-gray-300 rounded-lg p-4">
+          <div class="flex gap-x-5">
+
+            <div class="max-w-9 min-w-9 min-h-9 max-h-9 bg-blue-100 rounded-lg flex justify-center items-center ">
+              <svg onclick="showLowerFAQText()" id="FAQdownArrow" class="text-blue-600 hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+              <svg onclick="hideLowerFAQText()" id="FAQupArrow"  class="text-blue-600 hidden hover:cursor-pointer"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up-icon lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg>
+            </div>
+
+          
+
+            <div class="flex flex-col gap-y-3">
+              <div class="text-[19px] font-sans font-medium">How long we deliver your first blog post?</div>
+              <div id="lowerFAQText" class="text-[16px] font-sans text-gray-500 hidden">It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content making strategy that we do before writing your first blog post, ipsum available</div>
+            </div>
+
           </div>
-
-          <div>
-            <div>How long we deliver your first blog post?</div>
-
-            <div>it takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, ipsum available. </div>
-          </div>
-
         </div>
+
       </div>
+
     </div>
-      
       
 
 
@@ -572,7 +579,20 @@
   });
 
     
+  function showLowerFAQText(){
+    document.getElementById("FAQdownArrow").style.display = "none"
+    document.getElementById("FAQupArrow").style.display = "flex"
+    document.getElementById("lowerFAQText").style.display = "flex"
+  }
 
+  function hideLowerFAQText(){
+    document.getElementById("FAQdownArrow").style.display = "flex"
+    document.getElementById("FAQupArrow").style.display = "none"
+    document.getElementById("lowerFAQText").style.display = "none"
+  }
+
+
+  
 
 
   </script>
