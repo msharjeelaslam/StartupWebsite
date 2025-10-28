@@ -224,6 +224,27 @@
   .z-50 {
     z-index: 50;
   }
+  .container {
+    width: 100%;
+    @media (width >= 560px) {
+      max-width: 560px;
+    }
+    @media (width >= 720px) {
+      max-width: 720px;
+    }
+    @media (width >= 960px) {
+      max-width: 960px;
+    }
+    @media (width >= 1143px) {
+      max-width: 1143px;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
   .mx-auto {
     margin-inline: auto;
   }
