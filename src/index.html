@@ -764,12 +764,12 @@
     <!--main container div-->
     <div class="flex justify-center items-center mb-20">
       <!--grid div-->
-      <div class="min-w-100 xs:min-w-130 sm:min-w-168 md:min-w-230 lg:min-w-273 border border-fuchsia-500 flex justify-center items-center">
+      <div class=" grid grid-cols-1 md:grid-cols-2 gap-y-10 min-w-100 xs:min-w-130 sm:min-w-168 md:min-w-230 lg:min-w-273  ">
         <!--content div 1-->
         <div class="grid grid-cols-1 gap-y-10">
           <!-- uppar content div 1-->
           <div>
-            <div class="grid grid-cols-1 gap-y-4 sm:gap-y-5 max-w-96 xs:min-w-128 sm:min-w-166 md:min-w-104 md:max-w-104 lg:min-w-130 border border-black">
+            <div class="grid grid-cols-1 gap-y-4 sm:gap-y-5 max-w-96 xs:min-w-128 sm:min-w-166 md:min-w-104 md:max-w-104 lg:min-w-130 ">
               <div class="text-[17px]  text-blue-600 font-sans font-medium">Contact us</div>
               <div class="text-[32px] xs:text-[38px] sm:text-[40px] md:text-[36px] lg:text-[42px]   font-sans font-bold">GET IN TOUCH WITH US</div>
               <div class="text-[17px] font-sans text-gray-500 xs:max-w-120 sm:max-w-146 md:max-w-102 lg:min-w-118">Lorem ipsum doler sit amet, consectetur adipiscing elit, sed do euis tempor incidentu ut sebor el dolore manga elqua. ut enim ediqua minim venias quis nostrud exercitation ullamco</div>
@@ -780,7 +780,7 @@
           <div>
             <div class="grid grid-cols-1 gap-y-8">
 
-              <div class="flex gap-x-6 border border-purple-400 max-w-100">
+              <div class="flex gap-x-6   max-w-100">
 
                 <div class=" w-15 h-15 xs:w-18 xs:h-18 flex justify-center items-center rounded-lg bg-blue-50">
                   <svg  class="text-blue-500 xs:w-9 xs:h-9 " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
@@ -793,7 +793,7 @@
 
               </div>
 
-               <div class="flex gap-x-6 border border-purple-400 max-w-100">
+               <div class="flex gap-x-6 max-w-100">
 
                 <div class=" w-15 h-15 xs:w-18 xs:h-18 flex justify-center items-center rounded-lg bg-blue-50">
                   <svg class="text-blue-500 xs:w-9 xs:h-9 " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon lucide-phone-call"><path d="M13 2a9 9 0 0 1 9 9"/><path d="M13 6a5 5 0 0 1 5 5"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
@@ -806,7 +806,7 @@
 
               </div>
 
-               <div class="flex gap-x-6 border border-purple-400 max-w-100">
+               <div class="flex gap-x-6  max-w-100">
 
                 <div class=" w-15 h-15 xs:w-18 xs:h-18 flex justify-center items-center rounded-lg bg-blue-50">
                   <svg class="text-blue-500 xs:w-9 xs:h-9 " xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
@@ -826,7 +826,27 @@
 
         <!--content div 2-->
         <div>
-          <div></div>
+          <div class="border border-gray-400 rounded-lg px-7 py-7 xs:px-8 xs:py-8 sm:px-9 sm-py-9 w-full grid grid-cols-1 gap-y-5 xs:gap-y-7 sm:gap-y-8">
+
+            <div>
+              <input class="px-3.5 py-3 rounded-md w-full  text-[17px] text-gray-500 border border-gray-300 outline-0" type="text" placeholder="Your Name">
+            </div>
+
+            <div>
+              <input class="px-3.5 py-3 rounded-md w-full  text-[17px] text-gray-500 border border-gray-300 outline-0" type="text" placeholder="Your Email">
+            </div>
+
+            <div>
+              <input class="px-3.5 py-3 rounded-md w-full  text-[17px] text-gray-500 border border-gray-300 outline-0" type="text" placeholder="Your Phone">
+            </div>
+
+            <div>
+              <textarea class="px-3.5 py-3 rounded-md w-full h-40  text-[17px] text-gray-500 border border-gray-300 outline-0" placeholder="Your Message"  name="" id=""></textarea>
+            </div>
+
+            <button class="bg-blue-600 rounded-md hover:cursor-pointer hover:bg-blue-500 text-white text-lg font-sans font-medium py-3">Send Message</button>
+
+          </div>
         </div>
 
       </div>
